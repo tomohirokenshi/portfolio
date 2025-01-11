@@ -103,7 +103,7 @@
 .neon-border::after {
   content: "";
   position: absolute;
-  background-image: url("/public/ImageBackground.jpg");
+  background-image: url("/public/images/ImageBackground.jpg");
   background-position: center;
   background-size: 180%;
   object-fit: cover;

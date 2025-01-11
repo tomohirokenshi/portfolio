@@ -51,7 +51,7 @@
 .project-image {
   height: 100%;
   width: 100%;
-  background-image: url("/public/ProjectBg.jpg");
+  background-image: url("/public/images/ProjectBg.jpg");
   background-size: 125%;
   object-fit: contain;
   object-position: center;
