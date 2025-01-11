@@ -1,0 +1,152 @@
+.contact-button,
+.social-icon,
+.resume-button,
+.see-more-link,
+.cta-button,
+.send-message {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  text-shadow:
+    -2px 4px 4px rgba(255, 209, 220, 0.7),
+    0 0 10px rgba(255, 209, 220, 0.8),
+    inset 1px 1px 1px white;
+  color: #ffd1dc;
+  border: 2px solid #ffd1dc;
+  border-radius: 25px;
+  background-color: transparent;
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.6),
+    2px 1px 4px rgba(0, 0, 0, 0.3),
+    2px 4px 3px rgba(255, 105, 180, 0.5),
+    0 0 7px 2px rgba(255, 209, 220, 0.5),
+    inset 0 1px 2px rgba(0, 0, 0, 0.6),
+    inset 2px 1px 4px rgba(0, 0, 0, 0.3),
+    inset 2px 4px 3px rgba(255, 105, 180, 0.5),
+    inset 0 0 7px 2px rgba(255, 209, 220, 0.5);
+}
+
+.contact-button,
+.resume-button,
+.see-more-link,
+.cta-button,
+.send-message {
+  animation: flickering 5s infinite;
+}
+
+.contact-button:hover,
+.social-icon:hover,
+.resume-button:hover,
+.see-more-link:hover,
+.cta-button:hover,
+.send-message:hover {
+  text-shadow:
+    -2px 4px 4px rgba(135, 206, 235, 0.7),
+    0 0 10px rgba(135, 206, 235, 0.8),
+    inset 1px 1px 1px white;
+  color: #87ceeb;
+  border: 2px solid #87ceeb;
+  border-radius: 25px;
+  background-color: transparent;
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.6),
+    2px 1px 4px rgba(0, 0, 0, 0.3),
+    2px 4px 3px rgba(135, 206, 235, 0.5),
+    0 0 7px 2px rgba(135, 206, 235, 0.5),
+    inset 0 1px 2px rgba(0, 0, 0, 0.6),
+    inset 2px 1px 4px rgba(0, 0, 0, 0.3),
+    inset 2px 4px 3px rgba(135, 206, 235, 0.5),
+    inset 0 0 7px 2px rgba(135, 206, 235, 0.5);
+}
+
+.contact-button:hover,
+.resume-button:hover,
+.see-more-link:hover,
+.cta-button:hover,
+.send-message:hover {
+  animation: flickering1 5s infinite;
+}
+
+@keyframes flickering {
+  0% {
+    border-color: transparent;
+    opacity: 0.2;
+  }
+
+  2% {
+    border-color: #ffd1dc;
+    opacity: 1;
+  }
+
+  4% {
+    border-color: transparent;
+    opacity: 0.2;
+  }
+
+  8% {
+    border-color: #ffd1dc;
+    opacity: 1;
+  }
+
+  28% {
+    border-color: #ffd1dc;
+    opacity: 1;
+  }
+
+  30% {
+    border-color: transparent;
+    opacity: 0.2;
+  }
+
+  36% {
+    border-color: #ffd1dc;
+    opacity: 1;
+  }
+
+  100% {
+    border-color: #ffd1dc;
+    opacity: 1;
+  }
+}
+
+@keyframes flickering1 {
+  0% {
+    border-color: transparent;
+    opacity: 0.2;
+  }
+
+  2% {
+    border-color: #87ceeb;
+    opacity: 1;
+  }
+
+  4% {
+    border-color: transparent;
+    opacity: 0.2;
+  }
+
+  8% {
+    border-color: #87ceeb;
+    opacity: 1;
+  }
+
+  28% {
+    border-color: #87ceeb;
+    opacity: 1;
+  }
+
+  30% {
+    border-color: transparent;
+    opacity: 0.2;
+  }
+
+  36% {
+    border-color: #87ceeb;
+    opacity: 1;
+  }
+
+  100% {
+    border-color: #87ceeb;
+    opacity: 1;
+  }
+}

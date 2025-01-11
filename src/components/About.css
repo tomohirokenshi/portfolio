@@ -1,0 +1,208 @@
+.about-section {
+  position: relative;
+  height: auto;
+  width: 100%;
+  padding: 3rem 0;
+  background-color: #212529;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-row,
+.about-card,
+.header-container {
+  max-width: 60rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about-card {
+  background-color: transparent;
+  border-radius: 10px;
+  border: none;
+  height: 100%;
+}
+
+.about-image-col {
+  padding-left: 0.7rem;
+}
+
+.about-me-header,
+.about-description h1,
+.resume-button {
+  font-family: "Montserrat", sans-serif;
+}
+
+.about-me-header {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #ffb6c1;
+  margin-bottom: 1.25rem;
+}
+
+.about-image {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.about-description {
+  margin-left: 1.15rem;
+}
+
+.about-description h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+  margin-top: -1.25rem;
+  margin-bottom: 0.425rem;
+}
+
+.about-description p,
+.about-description em {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #cccccc;
+}
+
+.about-description strong {
+  color: #ffffff;
+}
+
+.soft-skills {
+  margin-top: 0.35rem;
+}
+
+.resume-button {
+  margin-bottom: -1.45rem;
+  padding: 0.5rem 1.25rem;
+  font-size: 0.8rem;
+}
+
+.resume-button i {
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 1024px) {
+  .about-row,
+  .about-card,
+  .header-container {
+    max-width: 55rem;
+  }
+
+  .about-me-header {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-description {
+    margin-left: 0.6rem;
+  }
+
+  .about-description h1 {
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .about-description h2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-description p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 938px) {
+  .about-row,
+  .about-card,
+  .header-container {
+    max-width: 45rem;
+  }
+
+  .about-image-col,
+  .description-col {
+    width: 50%;
+    height: auto;
+  }
+
+  .about-description h1 {
+    font-size: 1.36rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-section {
+    padding: 2rem 3rem;
+  }
+
+  .about-card {
+    height: auto;
+    padding: 0;
+  }
+
+  .about-image-col,
+  .description-col {
+    width: auto;
+    height: auto;
+    padding: 0;
+  }
+
+  .about-image {
+    width: 11.5rem;
+    height: 11.5rem;
+    border-radius: 50%;
+  }
+
+  .about-me-header {
+    font-size: 1.6rem;
+  }
+
+  .about-description {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .about-description h1 {
+    font-size: 1.3rem;
+    margin-top: 0;
+  }
+
+  .resume-button,
+  .resume-button i {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .about-section {
+    padding: 2rem 1rem;
+  }
+
+  .card-pad {
+    padding: 1rem 0;
+  }
+
+  .about-image {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .about-me-header {
+    font-size: 1.64rem;
+  }
+
+  .about-description h1 {
+    font-size: 1.44rem;
+  }
+
+  .about-description p {
+    font-size: 0.8rem;
+  }
+}

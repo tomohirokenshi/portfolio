@@ -1,0 +1,134 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.footer-section {
+  position: relative;
+  height: auto;
+  width: 100%;
+  padding: 1.25rem 0;
+  background-color: black;
+  border-top: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.footer-container,
+.bottom-row {
+  max-width: 60rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.brand-name {
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text-column a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-location {
+  background: linear-gradient(to right, red, yellow, blue);
+  font-family: "Fira Sans", sans-serif;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.contact,
+.contact-links,
+.footer-links a,
+.copyright-text {
+  color: white;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.footer-social {
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.footer-logo {
+  max-width: 9rem;
+  height: auto;
+}
+
+.text-nav {
+  border-top: 2px solid white;
+}
+
+.footer-links {
+  margin: 1.25rem 0;
+}
+
+.footer-links a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.text-column a:hover,
+.footer-links a:hover,
+.footer-social:hover {
+  color: #ffb6c1;
+}
+
+@media (max-width: 1024px) {
+  .footer-container,
+  .bottom-row {
+    max-width: 55rem;
+  }
+}
+
+@media (max-width: 938px) {
+  .footer-container,
+  .bottom-row {
+    max-width: 45rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-container,
+  .bottom-row {
+    padding: 0 1rem;
+  }
+
+  .bottom-row {
+    max-width: 26rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .bottom-row {
+    max-width: 19rem;
+  }
+
+  .contact-group,
+  .footer-links a {
+    font-size: 0.73rem;
+  }
+
+  .copyright-text {
+    font-size: 0.6rem;
+  }
+
+  .footer-social {
+    font-size: 1.25rem;
+  }
+
+  .footer-logo {
+    max-width: 5rem;
+  }
+
+  .footer-links a {
+    margin: 0 0.5rem;
+  }
+}

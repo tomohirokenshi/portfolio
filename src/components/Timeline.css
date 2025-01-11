@@ -1,0 +1,175 @@
+.timeline-section {
+  position: relative;
+  height: auto;
+  width: 100%;
+  padding: 3rem 0;
+  background-color: #212529;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content-container {
+  max-width: 60rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cards {
+  background-color: black;
+}
+
+.cta-image {
+  height: auto;
+  max-width: 15rem;
+  width: 100%;
+}
+
+.timeline-header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #ffb6c1;
+  margin-bottom: 1.25rem;
+}
+
+.contents h2,
+.cta-lead {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.contents h2 {
+  color: white;
+}
+
+.cta-lead {
+  color: #ffb6c1;
+}
+
+.contents h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #ffb6c1;
+}
+
+.contents p,
+.cta-text {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: white;
+}
+
+.contents p {
+  margin-bottom: 0rem;
+}
+
+.contents p li {
+  margin-left: -1rem;
+}
+
+.column .contents {
+  padding-left: 1.25rem;
+  border-left: 2px solid black;
+}
+
+.cards::before {
+  content: "";
+  position: absolute;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  right: calc(100% + 0.6rem);
+  top: -0.1rem;
+  background-color: #ffb6c1;
+  border: 3px solid #212529;
+}
+
+.cards:hover {
+  box-shadow: 0px 3px 12px 0px #ffb6c1;
+  border: 1px solid transparent;
+}
+
+.cta-section1 {
+  margin: 9rem 0;
+  padding: 0 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .content-container {
+    max-width: 55rem;
+  }
+
+  .timeline-header {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .contents h3 {
+    font-size: 1rem;
+  }
+
+  .contents h2 {
+    font-size: 1.4rem;
+  }
+
+  .contents p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .cta-section1 {
+    margin: 5.5rem 0;
+  }
+}
+
+@media (max-width: 938px) {
+  .content-container {
+    max-width: 45rem;
+  }
+
+  .contents h2 {
+    font-size: 1.36rem;
+  }
+
+  .cta-section1 {
+    margin: 8rem 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .timeline-section {
+    padding: 2rem 3rem;
+  }
+
+  .timeline-header {
+    font-size: 1.6rem;
+  }
+
+  .contents h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .timeline-section {
+    padding: 2rem 1rem;
+  }
+
+  .timeline-header {
+    font-size: 1.64rem;
+  }
+
+  .contents h2 {
+    font-size: 1.44rem;
+  }
+
+  .contents p {
+    font-size: 0.79rem;
+  }
+}
