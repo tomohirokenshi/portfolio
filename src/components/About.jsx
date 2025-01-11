@@ -60,7 +60,7 @@ const AboutDescription = () => (
         </div>
 
         <a
-          href="/Sample.pdf"
+          href="./Sample.pdf"
           className="resume-button"
           download="Timothy_Resume.pdf"
           target="_blank"

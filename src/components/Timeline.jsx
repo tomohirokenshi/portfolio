@@ -5,7 +5,11 @@ import "./Button.css";
 
 const WrapUp = ({ onContactClick }) => (
   <div className="WrapCTA">
-    <img src="/Handshake.png" alt="CTA-Image" className="cta-image mb-3" />
+    <img
+      src="./images/Handshake.png"
+      alt="CTA-Image"
+      className="cta-image mb-3"
+    />
     <h2 className="cta-lead">Let’s Make a Connection</h2>
     <p className="cta-text">
       <em>

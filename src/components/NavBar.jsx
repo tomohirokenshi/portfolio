@@ -22,7 +22,7 @@ const NavBar = ({ onContactClick }) => {
         <Container className="container-nav">
           <Navbar.Brand href="#home">
             <img
-              src="/images/KenshiCal.png"
+              src="./images/KenshiCal.png"
               className="d-inline-block align-top"
               alt="Logo"
             />
