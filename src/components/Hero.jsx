@@ -14,14 +14,17 @@ const HeroImage = () => (
     <div className="neon-border">
       <div className="pp-container">
         <img
-          src="/Kenneth.png"
+          src="https://tomohirokenshi.github.io/portfolio/images/ProfilePicture.png"
           alt="Timothy Kenneth Dantic"
           className="prof-picture"
         />
         <div className="just-border"></div>
       </div>
       <div className="romaji d-md-block">
-        <img src="/JapName.png" alt="Tomohiro Kenshi" />
+        <img
+          src="https://tomohirokenshi.github.io/portfolio/images/JapName.png"
+          alt="Tomohiro Kenshi"
+        />
       </div>
     </div>
   </Col>
