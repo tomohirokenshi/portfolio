@@ -61,7 +61,7 @@ const LeftFooter = () => (
 const RightFooter = () => (
   <Col xs={12} md={6} className="logo-column text-center">
     <img
-      src="https://tomohirokenshi.github.io/portfolio/images/KenshiCal.png"
+      src="/images/KenshiCal.png"
       alt="Logo"
       className="footer-logo img-fluid"
     />
