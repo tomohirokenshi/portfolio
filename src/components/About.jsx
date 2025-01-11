@@ -60,9 +60,9 @@ const AboutDescription = () => (
         </div>
 
         <a
-          href="./Sample.pdf"
+          href="./Resume.pdf"
           className="resume-button"
-          download="Timothy_Resume.pdf"
+          download="Dantic, Timothy Kenneth (Resume).pdf"
           target="_blank"
           rel="noopener noreferrer"
         >

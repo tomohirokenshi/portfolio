@@ -171,10 +171,6 @@
 }
 
 @media (max-width: 526px) {
-  .project-card {
-    height: 40rem;
-  }
-
   .projects-section {
     padding: 2rem 3.5rem 5rem;
   }
@@ -186,19 +182,13 @@
   .project-description {
     font-size: 0.88rem;
   }
-
-  .tech-used {
-    position: absolute;
-    bottom: 4.1rem;
-  }
-
-  .see-more-link {
-    position: absolute;
-    bottom: 1rem;
-  }
 }
 
 @media (max-width: 425px) {
+  .projects-section {
+    padding: 2rem 1rem 5rem;
+  }
+
   .project-image {
     max-height: 10rem;
   }
