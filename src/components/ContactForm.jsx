@@ -21,14 +21,11 @@ const ContactForm = ({ onClose }) => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch(
-        "https://portfolio-mailer-lime.vercel.app/api/contact",
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(formData),
-        }
-      );
+      const response = await fetch("https://portfolio-mailer-lime.vercel.app", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
 
       if (response.ok) {
         console.log("Message sent successfully!");
