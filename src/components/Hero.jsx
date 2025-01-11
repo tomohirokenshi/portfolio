@@ -14,7 +14,7 @@ const HeroImage = () => (
     <div className="neon-border">
       <div className="pp-container">
         <img
-          src="./images/ProfilePicture.png"
+          src="../images/profile.png"
           alt="Timothy Kenneth Dantic"
           className="prof-picture"
         />
