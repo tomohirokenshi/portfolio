@@ -22,7 +22,7 @@ const ContactForm = ({ onClose }) => {
 
     try {
       const response = await fetch(
-        "https://portfolio-mailer-lime.vercel.app/",
+        "https://portfolio-mailer-lime.vercel.app/api/contact",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
