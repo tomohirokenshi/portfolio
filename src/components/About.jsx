@@ -77,10 +77,7 @@ const AboutDescription = () => (
 const AboutCard = () => (
   <Card className="about-card">
     <Row className="g-0 flex-column flex-md-row">
-      <AboutImage
-        src="https://tomohirokenshi.github.io/portfolio/images/GradPic.webp"
-        alt="Timothy Kenneth D. Dantic"
-      />
+      <AboutImage src="./images/GradPic.webp" alt="Timothy Kenneth D. Dantic" />
       <AboutDescription />
     </Row>
   </Card>

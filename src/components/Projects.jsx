@@ -8,10 +8,10 @@ const projectsData = [
     id: 1,
     title: "From Humble Beginnings: Arithmetic Game",
     description:
-      "In my freshman year, I embarked on my programming journey with a simple arithmetic game built in VB.net. This project served as a springboard, introducing me to the fundamental concepts of Object-Oriented Programming (OOP) – classes, objects, and methods. It provided me with hands-on experience in crafting user interfaces, designing forms, and developing a functional executable application. Through this project, I solidified my grasp of the interplay between logic and UI design, which significantly bolstered my confidence as a developer.",
+      "In my freshman year, I embarked on my programming journey with a simgit aple arithmetic game built in VB.net. This project served as a springboard, introducing me to the fundamental concepts of Object-Oriented Programming (OOP) – classes, objects, and methods. It provided me with hands-on experience in crafting user interfaces, designing forms, and developing a functional executable application. Through this project, I solidified my grasp of the interplay between logic and UI design, which significantly bolstered my confidence as a developer.",
     techUsed: ["VisualBasic .NET"],
-    img: "/images/Project1.png",
-    techLogos: ["/VB_NET.png"],
+    img: "./images/Project1.png",
+    techLogos: ["./images/VB_NET.png"],
     link: "https://github.com/tomohirokenshi/arithmetic-game",
   },
   {
@@ -20,8 +20,13 @@ const projectsData = [
     description:
       "This project marked my initial foray into front-end web development. I delved into the foundational technologies of HTML, CSS, and JavaScript to create a static website. I incorporated contemporary web design trends, including the parallax effect, carousels, and modals, to elevate the user experience. While the website lacked responsiveness, this project provided invaluable insights into crafting visually engaging and interactive web experiences. While CSS initially seemed daunting, the process of seeing your own work coming all together was incredibly rewarding.",
     techUsed: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    img: "/images/Project2.png",
-    techLogos: ["/HTML.svg", "/CSS.png", "/JavaScript.png", "/Bootstrap.svg"],
+    img: "./images/Project2.png",
+    techLogos: [
+      "./images/HTML.svg",
+      "./images/CSS.png",
+      "./images/JavaScript.png",
+      "./images/Bootstrap.svg",
+    ],
     link: "https://github.com/tomohirokenshi/frontend-ui-design",
   },
   {
@@ -30,8 +35,8 @@ const projectsData = [
     description:
       "During my internship at The Blue Circle Philippines Holdings Corp., I developed an Excel spreadsheet to streamline project progress tracking. This project significantly enhanced my Excel proficiency, enabling me to effectively utilize advanced functions, VB scripting, and conditional formatting. Furthermore, it honed my logical thinking and problem-solving skills while simultaneously improving my typing speed and accuracy as an Excel encoder. This experience also provided valuable insights into the operational dynamics of a successful renewable energy producer.",
     techUsed: ["GoogleSheets"],
-    img: "/images/Project3.png",
-    techLogos: ["/GoogleSheets.svg"],
+    img: "./images/Project3.png",
+    techLogos: ["./images/GoogleSheets.svg"],
     link: "https://github.com/tomohirokenshi/project-tracking-spreadsheet",
   },
   {
@@ -41,8 +46,12 @@ const projectsData = [
     description:
       "One of my most challenging yet rewarding college projects involved developing a Raspberry Pi-Based Library Management System to automate book borrowing and returning processes at the Library of the LSPU - SCC College of Engineering. Students could conveniently log in using RFID-tagged IDs and borrow books for designated periods. This project provided invaluable hands-on experience in backend development, database management, and hardware-software integration, establishing a strong foundation for my future pursuits in technology.",
     techUsed: ["Raspberry Pi", "Python", "SQLite"],
-    img: "/images/Project4.png",
-    techLogos: ["/RaspberryPi.svg", "/Python.svg", "/SQLite.svg"],
+    img: "./images/Project4.png",
+    techLogos: [
+      "./images/RaspberryPi.svg",
+      "./images/Python.svg",
+      "./images/SQLite.svg",
+    ],
     link: "https://github.com/tomohirokenshi/library-management-system",
   },
   {
@@ -51,8 +60,8 @@ const projectsData = [
     description:
       "My thesis project involved developing an Arduino-based control system for a mango fruit leather machine. This project sought to address the issue of surplus mangoes in Pila, Laguna, by automating the dehydration process and transforming them into a high-value product: fruit leather. This hands-on experience provided invaluable insights into embedded systems, encompassing microcontroller programming and sensor integration. These skills are highly transferable and directly applicable to a wide range of tech industries, including the burgeoning fields of IoT, automation, and robotics.",
     techUsed: ["Arduino", "C++"],
-    img: "/images/Project5.png",
-    techLogos: ["/Arduino.svg", "/C++.svg"],
+    img: "./images/Project5.png",
+    techLogos: ["./images/Arduino.svg", "./images/C++.svg"],
     link: "https://github.com/tomohirokenshi/mango-fruit-leather-machine",
   },
   {
@@ -61,13 +70,13 @@ const projectsData = [
     description:
       "This portfolio serves as a testament to my journey and growth as a developer. It not only showcases my projects and skills but also reflects my learning journey in web development. Built with React and JavaScript, the site emphasizes responsive design and interactive user experiences. On the backend, I have been exploring Node.js with Express. Throughout the creation of this portfolio, I have also embraced Git for version control, a crucial skill for future collaborative endeavors. As I continue to learn and evolve as a developer, I plan to continually update the content of this portfolio.",
     techUsed: ["React", "JavaScript", "CSS", "Bootstrap", "NodeJS"],
-    img: "/images/Project6.png",
+    img: "./images/Project6.png",
     techLogos: [
-      "/React.svg",
-      "/JavaScript.png",
-      "/CSS.png",
-      "/Bootstrap.svg",
-      "/NodeJS.svg",
+      "./images/React.svg",
+      "./images/JavaScript.png",
+      "./images/CSS.png",
+      "./images/Bootstrap.svg",
+      "./images/NodeJS.svg",
     ],
     link: "https://github.com/tomohirokenshi/portfolio",
   },
