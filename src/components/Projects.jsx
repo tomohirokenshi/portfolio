@@ -8,7 +8,7 @@ const projectsData = [
     id: 1,
     title: "From Humble Beginnings: Arithmetic Game",
     description:
-      "In my freshman year, I embarked on my programming journey with a simgit aple arithmetic game built in VB.net. This project served as a springboard, introducing me to the fundamental concepts of Object-Oriented Programming (OOP) – classes, objects, and methods. It provided me with hands-on experience in crafting user interfaces, designing forms, and developing a functional executable application. Through this project, I solidified my grasp of the interplay between logic and UI design, which significantly bolstered my confidence as a developer.",
+      "In my freshman year, I embarked on my programming journey with a simple arithmetic game built in VB.net. This project served as a springboard, introducing me to the fundamental concepts of Object-Oriented Programming (OOP) – classes, objects, and methods. It provided me with hands-on experience in crafting user interfaces, designing forms, and developing a functional executable application. Through this project, I solidified my grasp of the interplay between logic and UI design, which significantly bolstered my confidence as an aspiring developer.",
     techUsed: ["VisualBasic .NET"],
     img: "./images/Project1.png",
     techLogos: ["./images/VB_NET.png"],
@@ -18,7 +18,7 @@ const projectsData = [
     id: 2,
     title: "My First Steps Into Web Dev: Frontend UI Design",
     description:
-      "This project marked my initial foray into front-end web development. I delved into the foundational technologies of HTML, CSS, and JavaScript to create a static website. I incorporated contemporary web design trends, including the parallax effect, carousels, and modals, to elevate the user experience. While the website lacked responsiveness, this project provided invaluable insights into crafting visually engaging and interactive web experiences. While CSS initially seemed daunting, the process of seeing your own work coming all together was incredibly rewarding.",
+      "Creating this project marked my initial foray into front-end web development and UI design. I delved into the foundational technologies of HTML, CSS, and JavaScript to create a static website. I incorporated contemporary web design trends, including the parallax effect, carousels, and modals, to elevate the user experience. While the website lacked responsiveness, this project provided invaluable insights into crafting visually engaging and interactive web experiences. While CSS initially seemed daunting, the process of seeing the website coming all together was incredibly satisfying.",
     techUsed: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     img: "./images/Project2.png",
     techLogos: [
@@ -68,7 +68,7 @@ const projectsData = [
     id: 6,
     title: "A Journey in Development: This Portfolio Website",
     description:
-      "This portfolio serves as a testament to my journey and growth as a developer. It not only showcases my projects and skills but also reflects my learning journey in web development. Built with React and JavaScript, the site emphasizes responsive design and interactive user experiences. On the backend, I have been exploring Node.js with Express. Throughout the creation of this portfolio, I have also embraced Git for version control, a crucial skill for future collaborative endeavors. As I continue to learn and evolve as a developer, I plan to continually update the content of this portfolio.",
+      "This portfolio serves as a testament to my journey and growth as a developer. It not only showcases my projects and skills but also reflects my learning journey in web development. Built with React and Bootstrap, the site emphasizes responsive design and interactive user experiences. On the backend, I have been exploring Node.js with Express. Throughout the creation of this portfolio, I have also embraced Git for version control, a crucial skill for future collaborative endeavors. As I continue to learn and evolve as a developer, I plan to continually update the content of this portfolio.",
     techUsed: ["React", "JavaScript", "CSS", "Bootstrap", "NodeJS"],
     img: "./images/Project6.png",
     techLogos: [
@@ -76,9 +76,35 @@ const projectsData = [
       "./images/JavaScript.png",
       "./images/CSS.png",
       "./images/Bootstrap.svg",
-      "./images/NodeJS.svg",
+      "./images/NodeJS.png",
     ],
     link: "https://github.com/tomohirokenshi/portfolio",
+  },
+  {
+    id: 7,
+    title: "Building a Real-Time Chat App with MERN Stack: Serendipia",
+    description:
+      "In my pursuit of becoming a full-stack developer, I took a significant step forward by building a real-time chat application. This app allows for both one-on-one and group conversations, providing a versatile communication platform. I opted for the MERN stack (MongoDB, Express, React, Node.js) to solidify my skills in these core technologies. For a modern and efficient user interface, I utilized Tailwind CSS, a popular framework gaining traction over Bootstrap. Finally, to enable real-time communication, I implemented socket.io, a powerful library for real-time web applications.",
+    techUsed: [
+      "MongoDB",
+      "ExpressJS",
+      "React",
+      "NodeJS",
+      "JavaScript",
+      "Tailwind",
+      "SocketIO",
+    ],
+    img: "./images/Project7.png",
+    techLogos: [
+      "./images/MongoDB.svg",
+      "./images/ExpressJS.png",
+      "./images/React.svg",
+      "./images/NodeJS.png",
+      "./images/JavaScript.png",
+      "./images/Tailwind.png",
+      "./images/SocketIO.png",
+    ],
+    link: "https://github.com/tomohirokenshi/serendipia-chat-app",
   },
 ];
 
