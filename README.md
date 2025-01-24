@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/83f015bc-7463-454c-8bcc-bc03fc8f9eae)# Portfolio
+# Portfolio
 
 **Visit the page here:** https://tomohirokenshi.github.io/portfolio/ <br>
 This portfolio website serves as a testament to my ongoing journey in web development. Through its creation, I've solidified my understanding of fundamental web technologies such as HTML, CSS, and JavaScript. I've also honed my ability to design responsive and user-friendly interfaces by leveraging the power of Bootstrap.
