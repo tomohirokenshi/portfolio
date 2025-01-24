@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Visit the page here:** https://tomohirokenshi.github.io/portfolio/ <br>
+This portfolio website serves as a testament to my ongoing journey in web development. Through its creation, I've solidified my understanding of fundamental web technologies such as HTML, CSS, and JavaScript. I've also honed my ability to design responsive and user-friendly interfaces by leveraging the power of Bootstrap.
 
-## Available Scripts
+## Key Learnings
 
-In the project directory, you can run:
+* **HTML & CSS Fundamentals:** I solidified my understanding of HTML for structuring web content and CSS for styling it.
+* **JavaScript Fundamentals:** This project significantly enhanced my JavaScript skills. I delved into core concepts like variables, functions, control flow, and DOM manipulation. I likely explored more advanced features like event handling and asynchronous programming to create interactive elements within the portfolio.
+* **React Fundamentals:** React introduced me to component-based architecture, a powerful paradigm for building user interfaces. By breaking down the portfolio into reusable components, I ensured efficient and maintainable code. 
+* **Responsive Design with Bootstrap:** Bootstrap is a component-based framework that simplifies the creation of responsive websites. Building this portfolio with Bootstrap allowed me to understand how to design layouts that adapt seamlessly across different devices and screen sizes. I also used Bootstrap because it is much easier to learn than Tailwind, although Tailwind seems to be becoming increasingly popular in current trends. I chose Bootstrap because it was ideal for consistent and rapid website development by utilizing pre-built components.
+* **Backend Development with Node.js and Express.js:** While this portfolio likely focuses on the front-end, incorporating Node.js with Express on the backend provided a glimpse into server-side scripting. I have learned how to set up a Node.js server, writing middleware function that handles HTTP requests and responses, and the usage of HTTP methods.
+* **Connecting the Frontend and Backend:** I encountered the challenge of Cross-Origin Resource Sharing (CORS) while working on this project. I was initially stuck trying to understand how to enable cross-origin requests between my frontend and backend. This experience highlighted the importance of CORS in modern web development and taught me valuable troubleshooting skills.
+* **Deployment Process:** Deploying the portfolio website to Github Pages and Vercel allowed me to understand the process of publishing a web application to a live server. I learned how to configure Vercel and link it to my Git repository to automate the deployment process.
 
-### `npm start`
+## Reflections
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Beyond showcasing my technical skills, this portfolio is a valuable asset in my professional development. It serves as a dynamic representation of my web development journey, highlighting my unique approach to problem-solving and my passion for creating engaging online experiences. Moreover, it acts as a valuable tool for connecting with potential employers and collaborators, allowing me to effectively communicate my skills and experience to a wider audience. I believe that continuous learning and improvement are essential for any developer, and this portfolio will serve as a living testament to my ongoing growth and exploration in the ever-evolving world of web development.
