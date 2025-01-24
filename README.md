@@ -1,4 +1,4 @@
-# Portfolio
+![image](https://github.com/user-attachments/assets/83f015bc-7463-454c-8bcc-bc03fc8f9eae)# Portfolio
 
 **Visit the page here:** https://tomohirokenshi.github.io/portfolio/ <br>
 This portfolio website serves as a testament to my ongoing journey in web development. Through its creation, I've solidified my understanding of fundamental web technologies such as HTML, CSS, and JavaScript. I've also honed my ability to design responsive and user-friendly interfaces by leveraging the power of Bootstrap.
@@ -16,3 +16,5 @@ This portfolio website serves as a testament to my ongoing journey in web develo
 ## Reflections
 
 Beyond showcasing my technical skills, this portfolio is a valuable asset in my professional development. It serves as a dynamic representation of my web development journey, highlighting my unique approach to problem-solving and my passion for creating engaging online experiences. Moreover, it acts as a valuable tool for connecting with potential employers and collaborators, allowing me to effectively communicate my skills and experience to a wider audience. I believe that continuous learning and improvement are essential for any developer, and this portfolio will serve as a living testament to my ongoing growth and exploration in the ever-evolving world of web development.
+
+![CORS Error Meme](https://miro.medium.com/v2/resize:fit:640/format:webp/0*8wyBNp2qVevkfelC.jpeg)
